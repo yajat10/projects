@@ -1,0 +1,43 @@
+#sketch_to_be_drawn{
+    font-size: 20px;
+    color: aquamarine;
+    background-color: orange;
+    width: 75px;
+    border-radius: 20px;
+}
+canvas{
+    border: red 3px dashed ;
+    animation-name:example ;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+    border-radius: 10px;
+    margin-left: 620px;
+    margin-top: 19px;
+}
+@keyframes example{
+  from{box-shadow: 1px 1px 48px greenyellow;}
+  to{box-shadow: 1px 1px 48px lightblue;}
+}
+#show_sketch{
+    float: right;
+    margin-right:40px ;
+    margin-top: 20px;
+}
+.header{
+    margin-left: 135px;
+}
+#label ,#confidence{
+    background-color: lightgray;
+    width: 200px;
+    border-radius: 20px;
+}
+#sketch_to_be_draw{
+    color: darkblue ;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#timer, #score{
+    color: darkblue;
+    border-radius: 20px;
+    font-weight: bold;
+}
